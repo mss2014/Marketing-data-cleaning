@@ -57,5 +57,9 @@ print("Data pipeline executed successfully! Saved as 'cleaned_marketing_campaign
 
 ├── marketing_campaign.csv          # Raw, untouched input dataset
 ├── cleaned_marketing_campaign.csv  # Final, processed output dataset
+└── README.md                       # Documentation and project walkthrough
 
----------
+---
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
