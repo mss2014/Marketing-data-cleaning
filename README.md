@@ -52,3 +52,10 @@ df['dt_customer'] = pd.to_datetime(df['dt_customer'], format='%d-%m-%Y')
 # 7. Export production-ready dataset
 df.to_csv('cleaned_marketing_campaign.csv', index=False, date_format='%d-%m-%Y')
 print("Data pipeline executed successfully! Saved as 'cleaned_marketing_campaign.csv'.")
+
+---
+
+├── marketing_campaign.csv          # Raw, untouched input dataset
+├── cleaned_marketing_campaign.csv  # Final, processed output dataset
+
+---------
